@@ -1,0 +1,32 @@
+/* src/components/Dashboard.css */
+.dashboard-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dashboard-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .dashboard-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333; /* Set your desired text color */
+  }
+  
+  .chart-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .chart-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #555; /* Set your desired text color */
+  }
+  
