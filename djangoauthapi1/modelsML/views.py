@@ -21,18 +21,17 @@ from tensorflow.keras.models import load_model
 from dateutil import parser
 # from tensorflow.keras.models import Sequential
 # from tensorflow.keras.layers import Conv1D, Dense
-
 # model_path = r'E:\bgreen-template-master\djangoauthapi1\modelsML\classification_randomFOrest.joblib'
-model_path = r'E:\bgreen-template-master\djangoauthapi1\modelsML\joblib_model (1).sav'
+model_path = r'modelsML/joblib_model (1).sav'
 model = joblib.load(model_path)  
-model_pathharvest = r'E:\bgreen-template-master\djangoauthapi1\modelsML\joblib_model_harvestdate_catboost.sav'
+model_pathharvest = r'modelsML/joblib_model_harvestdate_catboost.sav'
 modelharvest = joblib.load(model_pathharvest)  
-model_pathfertilizer = r'E:\bgreen-template-master\djangoauthapi1\modelsML\joblib_model_cnn_fertililzer.sav'
+model_pathfertilizer = r'modelsML/joblib_model_cnn_fertililzer.sav'
 # model_cnn= r'E:\bgreen-template-master\djangoauthapi1\modelsML\newnew.hdf5'
-model_cnn= r'E:\bgreen-template-master\djangoauthapi1\modelsML\complete_model.h5'
+model_cnn= r'modelsML/complete_model.h5'
 modelcnn = load_model(model_cnn)
-labelencoderpath=r'E:\bgreen-template-master\djangoauthapi1\modelsML\newnewlabelencoder.pkl'
-scalerpath=r'E:\bgreen-template-master\djangoauthapi1\modelsML\newnewscaler.pkl'
+labelencoderpath=r'modelsML/newnewlabelencoder.pkl'
+scalerpath=r'modelsML/newnewscaler.pkl'
 loaded_label_encoder = joblib.load(labelencoderpath)
 loaded_scaler_encoder = joblib.load(scalerpath)
 

@@ -9,7 +9,8 @@ charset-normalizer==3.2.0
 contourpy==1.2.0
 cryptography==41.0.3
 cycler==0.12.1
-Django==4.2.9
+Django==4.0.3
+django==4.0.3
 django-cors-headers==3.11.0
 django-dotenv==1.4.2
 django-mongodb-engine==0.6.0
