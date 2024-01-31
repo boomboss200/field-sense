@@ -50,6 +50,7 @@ matplotlib==3.8.2
 ml-dtypes==0.2.0
 mongo==0.2.0
 mongoengine==0.27.0
+mysqlclient==2.2.0
 numpy==1.26.3
 oauthlib==3.2.2
 opt-einsum==3.3.0
@@ -78,6 +79,7 @@ tenacity==8.2.3
 tensorboard==2.15.1
 tensorboard-data-server==0.7.2
 tensorflow-estimator==2.15.0
+tensorflow-intel==2.15.0
 tensorflow-io-gcs-filesystem==0.31.0
 termcolor==2.4.0
 threadpoolctl==3.2.0
@@ -86,4 +88,5 @@ tzdata==2023.4
 uritemplate==4.1.1
 urllib3==2.0.5
 Werkzeug==3.0.1
+windows-curses==2.3.1
 wrapt==1.14.1
