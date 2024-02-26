@@ -3,7 +3,7 @@ echo "BUILD START"
     python3 pip install --upgrade pip setuptools
     python3 -m pip install django==4.0.3
     python3 -m pip install earthengine-api
-    python3 -m pip install urllib3==1.21.1
+    python3 -m pip install urllib3==2.23.2
     # python3 -m pip install urllib3==1.0.2
  python3 -m pip install -r requirements.txt
  python3 manage.py collectstatic --noinput --clear
