@@ -3,7 +3,7 @@
     "builds": [{
         "src": "djangoauthapi1/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "vercel-python3.9 " }
+        "config": { "maxLambdaSize": "15mb", "runtime": "vercel-python2.7 " }
     },
     {
         "src": "build_files.sh",
